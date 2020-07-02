@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/ke-ta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: snow;
+}
+
+.container {
+    width: 530px;
+    height: 310px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+
+    background-color: rgba(0,0,0,0.3);
+    overflow: auto;
+}
+
+.container-header {
+    text-align: center;
+    color: white;
+}
+
+.container-header h1{
+    font-size: 1.6em;
+    margin: 1px;
+}
+
+.container-header hr {
+    margin: 5px;
+    border-color: #fff;
+
+}
+
+.container-header p {
+    margin: 5px;
+}
+
+.container-body .list{
+    padding-left: 0;
+    margin: 1em;
+    font-size: 1.2em;
+}
+
+.container-body .list li{
+    margin-top: 0.5em;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.25rem;
+    border-radius: 0.5em;
+    list-style: none;
+}
+
+.container-footer hr {
+    margin-bottom: 40px;
+}
+
+.container-footer span {
+    color: snow;
+    float: right;
+    font-size: 18px;
+    font-weight: bolder;
+}
